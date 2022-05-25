@@ -1,0 +1,133 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+// BUTTONS
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    background: $secondary-color;
+    color: #fff;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        background: #fff;
+        color: $secondary-color;
+    }
+}
+
+.btn-alternate{
+    background: $secondary-color;
+        color: #fff;
+        transition: all 1s ease-in-out;
+        border: 1px solid transparent;
+
+        &:hover{
+            border: 1px solid $main-color;
+            background: transparent;
+            color: $main-color;
+        }
+}
+
+.btn-main{
+    background: $main-color;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        background: transparent;
+       border: 2px solid $main-color;
+       color: $main-color;
+    }
+}
+
+// PADDING
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.py-4{
+    padding: 4rem 0;
+}
+
+// MARGIN
+.mg-1{
+    margin: 1rem 0;
+}
+.mg-2{
+    margin: 2rem 0;
+}
+.mg-3{
+    margin: 3rem 0;
+}
+.mg-4{
+    margin: 4rem 0;
+}
+
+// TEXT CENTER
+.text-center{
+    text-align: center;
+}
+
+// BOTTOM-LINE
+.bottom-line{
+    height: 3px;
+    width: 4rem;
+    background: $secondary-color;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+// HEADERS
+
+h2{
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+
+// PARAHRAPH LEAD
+.lead {
+    font-size: 20px;
+    margin: 1rem 0 1.5rem;
+}
+
+// BACKGROUNDS
+.main-bg{
+    background: $main-color;
+    color: #fff;
+}
+
+.secondary-bg{
+    background: $secondary-color;
+    color: $main-color;
+}
+
+.alternate-bg{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.intermmediate-bg{
+    background: #ccc;
+}
+
+.linear-bg{
+background: linear-gradient(to left, $secondary-color, $main-color);
+color: #fff;
+}
